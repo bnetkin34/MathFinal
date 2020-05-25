@@ -1,3 +1,2 @@
 # MathFinal
-Math final sameer is my boi
-sameer
+This is the math final for AP Calculus AB.
