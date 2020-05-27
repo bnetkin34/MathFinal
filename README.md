@@ -1,2 +1,2 @@
 # MathFinal
-This is the math final for AP Calculus AB.
+This is the math project for AP Calculus AB.
