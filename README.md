@@ -1,2 +1,2 @@
 # Math Final Project
-This is the math project for AP Calculus AB.
+This is the final math project for AP Calculus AB.
