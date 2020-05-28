@@ -1,1 +1,1 @@
-function integral();
+function derivative();
