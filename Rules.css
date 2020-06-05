@@ -1,7 +1,7 @@
 button {
 	background-color:#4169e1;
 	border-radius:28px;
-	border:1px solid #18ab29;
+	border:1px solid black;
 	display: inline-block;
 	cursor:pointer;
   justify-content: space-around;
