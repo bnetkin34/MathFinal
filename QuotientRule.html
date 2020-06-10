@@ -14,15 +14,17 @@
     <div class="header">
       <h1>QUOTIENT RULE</h1>
     </div>
-      <h2> Learn how to take a derivative using these methods! </h2>
+      <div class = "topbuttons">
+        <h2> Learn how to take a derivative using these methods! </h2>
       <button onclick = 'SendTo("Home.html");'> <h4> Home </h4> </button>
       <button onclick = 'SendTo("PowerRule.html");'> <h4> Power Rule </h4> </button>
       <button onclick = 'SendTo("ProductRule.html");'> <h4> Product Rule </h4></button>
       <button onclick = 'SendTo("QuotientRule.html");' type = "button" disabled> <h4> Quotient Rule </h4></button>
       <button onclick = 'SendTo("ChainRule.html");'> <h4> Chain Rule </h4></button>
+    </div>
       <hr/>
       <div class="start">
-      <h2>Definition of the Product Rule: A method used to differeniate two functions being divided by one another.</h2>
+      <h2>Definition of the Quotient Rule: A method used to differeniate two functions being divided by one another.</h2>
                 </div>
         <div class="start">
         <h2>Function Notation: d/dx(f(x)/g(x)) = ((g(x)*df(x)) - (f(x)*dg(x)))/(g(x))<sup>2</sup> </h2>
@@ -56,10 +58,10 @@
 
         <div class="start">
         <h2>The following function h(t) = (7t - 4)/(4t<sup>2</sup> - 2) represents the number of games of Overwatch that Aaron can play over time, in hours. What function represents the rate of change in the number of games that Aaron can play over time?</h2>
-        <table style = width:50%; class = "table";>
+        <button onclick = 'QuotientStep();' class = 'answerbuttons'> Hint </button>
+        <table style = width:50%; class = "table" id = "quotienttable">
           <tr>
-              <th> Step 1: </th>
-              <th> f(x) = (7x-4), g(x) = 4x<sup>2</sup>
               </div>
+        </table>
   </body>
 </html>
