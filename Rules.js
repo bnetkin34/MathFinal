@@ -10,18 +10,20 @@ function SendTo(location) {
    window.location.href = url;
 }
 
+var quotientstep;
+
 function QuotientStep() {
   var quotienttable = document.getElementById("quotienttable");
-  if (typeof step !== 'undefined') {
-    step +=1;
-    if (step == 2) {
+  if (typeof quotientstep !== 'undefined') {
+    quotientstep +=1;
+    if (quotientstep == 2) {
       var row = quotienttable.insertRow(1);
       var cell1 = row.insertCell(0);
       var cell2 = row.insertCell(1);
       cell1.innerHTML = "Step 2:";
       cell2.innerHTML = "something";
     }
-    if (step == 3) {
+    if (quotientstep == 3) {
       var row = quotienttable.insertRow(2);
       var cell1 = row.insertCell(0);
       var cell2 = row.insertCell(1);
@@ -30,7 +32,7 @@ function QuotientStep() {
     }
   }
   else {
-    var step = 1;
+    quotientstep = 1;
     var row = quotienttable.insertRow(0);
     var cell1= row.insertCell(0);
     var cell2 = row.insertCell(1);
