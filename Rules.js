@@ -111,14 +111,14 @@ function chainStepFunction() {
       var cell1 = row.insertCell(0);
       var cell2 = row.insertCell(1);
       cell1.innerHTML = "Step 2:";
-      cell2.innerHTML = "something";
+      cell2.innerHTML = "d/dt = 3(5t + 2)<sup>2</sup> * 5</br>d/dt(5t + 2) = 5";
     }
     if (chainStep == 3) {
       var row = chaintable.insertRow(2);
       var cell1 = row.insertCell(0);
       var cell2 = row.insertCell(1);
       cell1.innerHTML = "Step 3:";
-      cell2.innerHTML = "something else";
+      cell2.innerHTML = "Final Answer: d/dt = (5t + 2)<sup>3</sup></br> 15(5t + 2)<sup>2</sup>";
     }
   }
   else {
@@ -127,7 +127,7 @@ function chainStepFunction() {
     var cell1= row.insertCell(0);
     var cell2 = row.insertCell(1);
     cell1.innerHTML = "Step 1:";
-    cell2.innerHTML = "f(x) = (7x-4), g(x) = (4x<sup>2</sup>-2)"
+    cell2.innerHTML = "d/dt(5x +2)<sup>3</sup> = 3 * 5(5x + 2)<sup>2</sup>"
   }
 }
 
