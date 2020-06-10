@@ -59,6 +59,14 @@ body {
 	padding-bottom: 10px;
 }
 
+#limimg{
+	width: 35%
+}
+
+#lim{
+	padding-left: 3%;
+}
+
 .topbuttons {
 	text-align: center;
 }

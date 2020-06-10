@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Product Rule</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="Rules.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="Rules.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Limit Definition of a Derivative</h1>
+    </div>
+      <div class = "topbuttons">
+        <h2> Learn how to take a derivative and apply that knowledge using these methods! </h2>
+      <button onclick = 'SendTo("Home.html");'> <h4> Home </h4> </button>
+      <button onclick = 'SendTo("LimitDef.html");'type = "button" disabled> <h4> Limit Definition of a Derivative </h4> </button>
+      <button onclick = 'SendTo("PowerRule.html");'> <h4> Power Rule </h4> </button>
+      <button onclick = 'SendTo("ProductRule.html");'><h4> Product Rule </h4></button>
+      <button onclick = 'SendTo("QuotientRule.html");'> <h4> Quotient Rule </h4></button>
+      <button onclick = 'SendTo("ChainRule.html");'> <h4> Chain Rule </h4></button>
+      <button onclick = 'SendTo("AOD.html");'><h4> Applications of Derivatives </h4></button>
+    </div>
+      <hr/>
+      <div class="start">
+      <h2>Limit Definition of a Derivative: The derivative of a function is equal to the limit as x approaches a of f(x) minus f(a) divided by the difference between x and a. </h2>
+                </div>
+        <div class="start" id="lim">
+        <img src = "./LimitDefinition.png" id="limimage">
+              </div>
+
+        <div class="start">
+        <h2>DO IT YOURSELF: Write out the limit definition for f ‘(9) when f(x) = &#8730;x</h2>
+        <button onclick = 'limStepFunction();' class = 'answerbuttons'> Hint </button>
+        <table style = width:70%; class = "table" id = "limtable">
+          <tr>
+              </div>
+        </table>
+  </body>
+</html>
