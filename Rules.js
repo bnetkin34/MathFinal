@@ -130,3 +130,32 @@ function chainStepFunction() {
     cell2.innerHTML = "f(x) = (7x-4), g(x) = (4x<sup>2</sup>-2)"
   }
 }
+
+function aodstepFunction() {
+  var aodtable = document.getElementById("aodtable");
+  if (typeof aodStep !== 'undefined') {
+    aodStep +=1;
+    if (aodStep == 2) {
+      var row = aodtable.insertRow(1);
+      var cell1 = row.insertCell(0);
+      var cell2 = row.insertCell(1);
+      cell1.innerHTML = "Step 2:";
+      cell2.innerHTML = "Intervals: (-2, -(1/2)), ((-1/2), 2)</br> Test Points: -1, 1 </br> At x = -1, the derivative is negative which means the function is decreasing </br> At x = 1, the derivative is positive which means the function is increasing";
+    }
+    if (aodStep == 3) {
+      var row = aodtable.insertRow(2);
+      var cell1 = row.insertCell(0);
+      var cell2 = row.insertCell(1);
+      cell1.innerHTML = "Step 3:";
+      cell2.innerHTML = "On the left side of our critical point, the derivative is negative. On the right side of our critical point, the derivative is positive. Since the functions derivative is going from negative to positive at this point, it means the point x = (-1/2) is a relative minimum.";
+    }
+  }
+  else {
+    aodStep = 1;
+    var row = aodtable.insertRow(0);
+    var cell1= row.insertCell(0);
+    var cell2 = row.insertCell(1);
+    cell1.innerHTML = "Step 1:";
+    cell2.innerHTML = "f'(x) = 2x+1(power rule)</br>2x + 1 = 0 </br> x = -(1/2) (critical point)"
+  }
+}

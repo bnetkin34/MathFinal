@@ -6,6 +6,8 @@
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="Rules.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
 
     <!-- JavaScript -->
     <script type="text/javascript" src="Rules.js"></script>
@@ -13,46 +15,52 @@
   <body>
     <div class="header">
       <h1>CHAIN RULE</h1>
-      <h2> Learn how to take a derivative and apply that knowledge using these methods! </h2>
+    </div>
+      <div class = "topbuttons">
+        <h2> Learn how to take a derivative and apply that knowledge using these methods! </h2>
       <button onclick = 'SendTo("Home.html");'> <h4> Home </h4> </button>
       <button onclick = 'SendTo("PowerRule.html");'> <h4> Power Rule </h4> </button>
-      <button onclick = 'SendTo("ProductRule.html");'> <h4> Product Rule </h4> </button>
+      <button onclick = 'SendTo("ProductRule.html");'> <h4> Product Rule </h4></button>
       <button onclick = 'SendTo("QuotientRule.html");'> <h4> Quotient Rule </h4></button>
-      <button onclick = 'SendTo("ChainRule.html");' type = "button" disabled> <h4> Chain Rule </h4> </button>
+      <button onclick = 'SendTo("ChainRule.html");' type = "button" disabled> <h4> Chain Rule </h4></button>
       <button onclick = 'SendTo("AOD.html");'><h4> Applications of Derivatives </h4></button>
+    </div>
       <hr/>
-    <div class="start">
-    </h2>Definition of the Chain Rule: A method used to differeniate composite functions.</h2>
-            </div>
       <div class="start">
-      </h2>Function Notation: d/dx(g(h(x))) = dg(h(x)) * dh(x)</h2>
-            </div>
-
-      <div class="start">
-      </h2>Steps to Success:</h2>
-      <table style="width:50%"; class="table";>
-        <tr>
-          <th>Step 1:</th>
-          <th>Differentiate the function on the outside.</th>
-        </tr>
-        <tr>
-          <td>Step 2:</td>
-          <td>Differentiate the function on the inside.</td>
-        </tr>
-        <tr>
-          <td>Step 3:</td>
-          <td>Simplify, if necessary.</td>
-        </tr>
-      </table>
-            </div>
-
+      <h2>Definition of the Chain Rule: A method used to differentiate composite functions.</h2>
+                </div>
         <div class="start">
-        </h2>IMPORTANT NOTE: Compare the chain rule to peeling an onion-- you peel from the outside to the inside.</h2>
+        <h2>Function Notation: d/dx(g(h(x))) = dg(h(x)) * dh(x)</h2>
               </div>
 
-      <div class="start">
-      </h2>Brett helps Aaron with his AP Calc homework at a rate modeled by the function g(t) = (5t+2)^3. What is the acceleration at which Brett helps Aaron at time t = 7?</h2>
-            </div>
-    </div>
+        <div class="start">
+        <h2>Steps to Success:</h2>
+        <table style=width:70%; class="table";>
+          <tr>
+            <td>Step 1:</td>
+            <td>Differentiate the outside function.</td>
+          </tr>
+          <tr>
+            <td>Step 2:</td>
+            <td>Differentiate the inside function.</td>
+          </tr>
+          <tr>
+            <td>Step 3:</td>
+            <td>Use the formula to simplify the equation.</td>
+          </tr>
+        </table>
+              </div>
+
+              <div class="start">
+              <h2>IMPORTANT NOTE: Compare the chain rule to peeling an onion-- you peel from the outside to the inside.</h2>
+                    </div>
+
+        <div class="start">
+        <h2>DO IT YOURSELF: Brett helps Aaron with his AP Calc homework at a rate modeled by the function g(t) = (5t+2)<sup>3</sup>. What is the acceleration at which Brett helps Aaron at time t = 7?</h2>
+        <button onclick = 'chainStepFunction();' class = 'answerbuttons'> Hint </button>
+        <table style = width:50%; class = "table" id = "chaintable">
+          <tr>
+              </div>
+        </table>
   </body>
 </html>

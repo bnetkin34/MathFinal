@@ -51,6 +51,11 @@ body {
 
 .table {
 	margin-left: 8%;
+	width: 50%;
+}
+
+#aodtable {
+	table-layout: fixed;
 }
 
 .topbuttons {
