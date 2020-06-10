@@ -148,7 +148,7 @@ function aodstepFunction() {
       var cell1 = row.insertCell(0);
       var cell2 = row.insertCell(1);
       cell1.innerHTML = "Step 3:";
-      cell2.innerHTML = "On the left side of our critical point, the derivative is negative. On the right side of our critical point, the derivative is positive. Because the function's derivative is going from negative to positive at this point, the point t = (-1/2) is a relative minimum.";
+      cell2.innerHTML = "On the left side of our critical point, the derivative is negative. On the right side of our critical point, the derivative is positive. Because the function's derivative is going from negative to positive at this point, the point t = -1/2 is a relative minimum.";
     }
   }
   else {
@@ -157,7 +157,7 @@ function aodstepFunction() {
     var cell1= row.insertCell(0);
     var cell2 = row.insertCell(1);
     cell1.innerHTML = "Step 1:";
-    cell2.innerHTML = "f '(t) = 2t+1(power rule)</br>2t + 1 = 0 </br> t = -(1/2) (critical point)"
+    cell2.innerHTML = "f '(t) = 2t+1(power rule)</br>2t + 1 = 0 </br> t = -1/2 (critical point)"
   }
 }
 
