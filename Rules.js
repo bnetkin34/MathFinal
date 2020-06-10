@@ -15,7 +15,7 @@ var productStep;
 var powerStep;
 var chainStep;
 
-function powerStep() {
+function powerStepFunction() {
   var powertable = document.getElementById("powertable");
   if (typeof powerStep !== 'undefined') {
     powerStep +=1;
@@ -44,7 +44,7 @@ function powerStep() {
   }
 }
 
-function quotientStep() {
+function quotientStepFunction() {
   var quotienttable = document.getElementById("quotienttable");
   if (typeof quotientStep !== 'undefined') {
     quotientStep +=1;
@@ -73,7 +73,7 @@ function quotientStep() {
   }
 }
 
-function productStep() {
+function productStepFunction() {
   var producttable = document.getElementById("producttable");
   if (typeof productStep !== 'undefined') {
     productStep +=1;
@@ -102,7 +102,7 @@ function productStep() {
   }
 }
 
-function chainStep() {
+function chainStepFunction() {
   var chaintable = document.getElementById("chaintable");
   if (typeof chainStep !== 'undefined') {
     chainStep +=1;
