@@ -2,10 +2,12 @@
 
 <html>
   <head>
-    <title>Math Final Project</title>
+    <title>Product Rule</title>
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="Rules.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
 
     <!-- JavaScript -->
     <script type="text/javascript" src="Rules.js"></script>
@@ -13,47 +15,46 @@
   <body>
     <div class="header">
       <h1>PRODUCT RULE</h1>
-      <h2> Learn how to take a derivative using these methods! </h2>
+    </div>
+      <div class = "topbuttons">
+        <h2> Learn how to take a derivative using these methods! </h2>
       <button onclick = 'SendTo("Home.html");'> <h4> Home </h4> </button>
       <button onclick = 'SendTo("PowerRule.html");'> <h4> Power Rule </h4> </button>
-      <button onclick = 'SendTo("ProductRule.html");' type = "button" disabled> <h4> Product Rule </h4> </button>
+      <button onclick = 'SendTo("ProductRule.html");' type = "button" disabled> <h4> Product Rule </h4></button>
       <button onclick = 'SendTo("QuotientRule.html");'> <h4> Quotient Rule </h4></button>
       <button onclick = 'SendTo("ChainRule.html");'> <h4> Chain Rule </h4></button>
-
-      <hr/>
-              <div class="start">
-              </h2>Definition of the Product Rule: A method used to differeniate two functions being multiplied by one another.</h2>
-
-                <div class="start">
-                </h2>Function Notation: d/dx(f(x)g(x)) = f(x)dg(x) + df(x)g(x)</h2>
-                      </div>
-
-                <div class="start">
-                </h2>Steps to Success:</h2>
-                <table style="width:50%"; class="table";>
-                  <tr>
-                    <th>Step 1:</th>
-                    <th>Identify f(x) and g(x), separately.</th>
-                  </tr>
-                  <tr>
-                    <td>Step 2:</td>
-                    <td>Plug everything into the formula shown above.</td>
-                  </tr>
-                  <tr>
-                    <td>Step 3:</td>
-                    <td>Take the derivatives where necessary and plug in (once again, shown in the formula).</td>
-                  </tr>
-                  <tr>
-                    <td>Step 4:</td>
-                    <td>Simplify, if needed.</td>
-                  </tr>
-                </table>
-                      </div>
-
-                <div class="start">
-                </h2>The function h(t) = (4t^2)(9t^3 - 1) represents the number of golf balls Brett can hit over time, in hours. What function represents the velocity at which Brett hits golf balls?</h2>
-                      </div>
-              </div>
     </div>
+      <hr/>
+      <div class="start">
+      <h2>Definition of the Product Rule: A method used to differeniate two functions being multiplied by one another.</h2>
+                </div>
+        <div class="start">
+        <h2>Function Notation: d/dx(f(x)*g(x)) = ((g(x)*df(x)) + (f(x)*dg(x)))</h2>
+              </div>
+
+        <div class="start">
+        <h2>Steps to Success:</h2>
+        <table style=width:70%; class="table";>
+          <tr>
+            <td>Step 1:</td>
+            <td>Identify f(x) and g(x) separately and find their derivatives.</td>
+          </tr>
+          <tr>
+            <td>Step 2:</td>
+            <td>Plug everything into the formula shown above.</td>
+          </tr>
+          <tr>
+            <td>Step 3:</td>
+            <td>Simplify, if needed.</td>
+          </tr>
+        </table>
+              </div>
+        <div class="start">
+        <h2>The function h(t) = (4t<sup>2</sup>)(9t<sup>3</sup> - 1) represents the number of golf balls Brett hits over time, in hours. What function represents the velocity at which Brett hits golf balls?</h2>
+        <button onclick = 'productStep();' class = 'answerbuttons'> Hint </button>
+        <table style = width:50%; class = "table" id = "producttable">
+          <tr>
+              </div>
+        </table>
   </body>
 </html>

@@ -25,10 +25,12 @@ button:active {
 
 html {
   height: 100%;
+	background-color: #C0C0C0;
 }
 
 body {
-  background-color: #C0C0C0;
+  margin-bottom: 100px;
+	margin-top: 50px;
 }
 
 .start {
@@ -53,4 +55,13 @@ body {
 
 .topbuttons {
 	text-align: center;
+}
+
+.answerbuttons {
+	text-align: center;
+	height: 35px;
+	width: 100px;
+	justify-content: center;
+	margin-left: 50%;
+	margin-right: 25%;
 }
