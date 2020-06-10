@@ -35,10 +35,12 @@ body {
 	font-weight: bold;
 	font-size: 15px;
 	padding-top: 30px;
+	font-family:Arial;
 }
 
 .header {
 	text-align: center;
+	font-family:Arial;
 }
 
 .table {
